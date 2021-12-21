@@ -1,4 +1,5 @@
 package foo.a
 
 object impl:
-  class Bar[T](foo: T)
+  class Bar
+  extension (rcv: Bar) def bar(a: Int, b: Boolean = false) = ()
