@@ -7,7 +7,7 @@ object impl:
 
 object Test1:
   import api.*
-  val value = Bar(0) // Not Found: Bar
+  val value = new Bar[Int](0) // Not Found: Bar
 
 object Test2:
   import impl.*
